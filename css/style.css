@@ -1,3 +1,6 @@
+body{
+    font-family: "Josefin Sans", cursive;
+}
 .navbar-fixed-top {
 	position:fixed;
 }
@@ -12,4 +15,30 @@
 	overflow-x: hidden;
 	overflow-y: auto;
 	border-right: 1px solid #eee;   
+}
+
+div.img-circle {
+    margin: 0 auto;
+}
+
+.featurette-image {
+    border: 5px solid white;
+    box-shadow: 3px 3px 3px #333;
+}
+
+h2 span.yash {
+    font-family: "Sunshiney", cursive;
+    font-weight: 400;
+    font-size: 80%;
+    color: #333;
+}
+
+div#yashprofile {
+    background-image: url('img/mapleleaf.png');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    background-color: rgba(255,255,255,.0);
 }
